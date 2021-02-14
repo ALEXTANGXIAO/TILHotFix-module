@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /HotFix_Project~/obj/
+Assets.meta
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 #!/[Aa]ssets/**/*.meta
