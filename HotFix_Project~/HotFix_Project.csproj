@@ -56,14 +56,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+   <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Src\3rd\ILRunTimeDemo\InstanceClass.cs" />
     <Compile Include="Src\3rd\ILRunTimeDemo\TestCLRRedirection.cs" />
     <Compile Include="Src\3rd\ILRunTimeDemo\TestMonoBehaviour.cs" />
     <Compile Include="Src\3rd\ILRunTimeDemo\TestValueType.cs" />
+    <Compile Include="Src\Event\Core\DEventInterface.cs" />
+    <Compile Include="Src\Event\Core\EventDispatcher.cs" />
+    <Compile Include="Src\Event\Core\EventManager.cs" />
+    <Compile Include="Src\Event\Core\GameEvent.cs" />
+    <Compile Include="Src\Event\Register\RegisterEvent_Logic.cs" />
+    <Compile Include="Src\Event\Register\RegisterEvent_UI.cs" />
+    <Compile Include="Src\Frame\BaseLogicSys.cs" />
+    <Compile Include="Src\Frame\BehaviourSingleton.cs" />
+    <Compile Include="Src\Frame\GameApp.cs" />
+    <Compile Include="Src\Frame\GameApp_RegisterSystem.cs" />
+    <Compile Include="Src\Frame\ILogicSys.cs" />
     <Compile Include="Src\GameMain.cs" />
     <Compile Include="Src\Game\GameApp.cs" />
-    <Compile Include="Src\Managers\UIManager.cs" />
+    <Compile Include="Src\UI\Core\UIManager.cs" />
+    <Compile Include="Src\UI\Core\IUIController.cs" />
+    <Compile Include="Src\UI\Core\UISys.cs" />
+    <Compile Include="Src\UI\Core\UIWindow.cs" />
+    <Compile Include="Src\UI\UIJumpMgr.cs" />
+    <Compile Include="Src\Utils\DUnityUtil.cs" />
+    <Compile Include="Src\Utils\GameTime.cs" />
     <Compile Include="Src\Utils\TSingleton.cs" />
   </ItemGroup>
   <ItemGroup />
