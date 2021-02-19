@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace HotFix_Project
@@ -26,6 +27,26 @@ namespace HotFix_Project
         public void RemoveUI(string url)
         {
             
+        }
+
+        public void Create()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        public void LateUpdate()
+        {
+
+        }
+
+        internal void CloseWindow(UIWindow uIWindow)
+        {
+            throw new NotImplementedException();
         }
     }
 }
